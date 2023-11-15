@@ -29,7 +29,7 @@ body {
     flex: 0.5;
     margin: 10px;
     position: relative;
-    transition: flex 0.7s ease-in;
+    transition: flex 0.7s ease-in; /*ease-in: inicia lentamente y acelera gradualmente hasta el final.*/
     -webkit-transition: all 700ms ease-in;
 }
 

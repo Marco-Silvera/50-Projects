@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+}
+
+.heading {
+    font-size: 4rem;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+.btn {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 25px;
+}
+
+
+
+.left {
+    background: url('https://media.wired.com/photos/5d5ec4d7a9558100099f379e/master/pass/Gear-Razer-blade-pro-17-source-razer-FATA.jpg') no-repeat scroll center;
+    background-size: cover;
+    width: 50vw;
+    height: 100vh;
+}
+
+.right {
+    background: url('https://images.expertreviews.co.uk/wp-content/uploads/2020/07/lg_gram_14_14z90n_review.jpg') no-repeat scroll center;
+    background-size: cover;
+    width: 50vw;
+    height: 100vh;
+}
+
+.left-wrapper {
+    background-color: rgba(71, 225, 12, 0.5);
+    height: 100%;
+}
+
+.right-wrapper {
+    background-color: rgba(141, 141, 141, 0.5);
+    height: 100%;
+}
+
+.left-content, .right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}

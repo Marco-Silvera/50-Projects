@@ -7,7 +7,6 @@
 
 body {
     font-family: 'Rubik', sans-serif;
-    display: flex;
 }
 
 .heading {
@@ -22,27 +21,32 @@ body {
     color: white;
     font-size: 1rem;
     padding: 10px 25px;
+    margin-top: 20px;
 }
 
-
+.container {
+    display: flex;
+}
 
 .left {
-    background: url('https://media.wired.com/photos/5d5ec4d7a9558100099f379e/master/pass/Gear-Razer-blade-pro-17-source-razer-FATA.jpg') no-repeat scroll center;
+    background: url('images/Razer-blade-pro-17.webp') no-repeat scroll center;
     background-size: cover;
-    width: 50vw;
+    width: 50%;
     height: 100vh;
-}
-
-.right {
-    background: url('https://images.expertreviews.co.uk/wp-content/uploads/2020/07/lg_gram_14_14z90n_review.jpg') no-repeat scroll center;
-    background-size: cover;
-    width: 50vw;
-    height: 100vh;
+    transition: all 0.5s ease-in-out;
 }
 
 .left-wrapper {
     background-color: rgba(71, 225, 12, 0.5);
     height: 100%;
+}
+
+.right {
+    background: url('images/lg_gram_14.jpg') no-repeat scroll center;
+    background-size: cover;
+    width: 50vw;
+    height: 100vh;
+    transition: all 0.5s ease-in-out;
 }
 
 .right-wrapper {
@@ -57,4 +61,18 @@ body {
     align-items: center;
     text-align: center;
     height: 100%;
+}
+
+.left:hover {
+    width: 90%;
+}
+
+.right:hover {
+    width: 90%;
+}
+
+.btn:hover {
+    color: black;
+    background: #fff;
+    font-weight: bold;
 }

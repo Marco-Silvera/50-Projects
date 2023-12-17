@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    background: #e1e1e1;
+}
+
+.key {
+    border: 1px solid #999;
+    background: #eee;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Desplazamiento horizontal, vertical, desenfoque, color */
+    display: inline-flex;
+    align-items: center;
+    font-size: 20px;
+    padding: 20px;
+    flex-direction: column;
+    margin: 10px;
+    min-width: 150px;
+    position: relative;     /* Para luego poder sacar los 'small' del recuadro con position absolute */
+}
+
+.key small {
+    position: absolute;
+    top: -25px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: #555;
+    font-size: 15px;
+}

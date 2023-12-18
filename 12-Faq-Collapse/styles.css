@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Mulish', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+    background: #ededed;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    height: 850px;
+    width: 600px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    align-self: center;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 30px;
+}
+
+h2 {
+    font-size: 19px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.faq {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.faq.active .answer {
+    max-height: 150px;
+    padding: 0px 30px 30px 30px;
+    transition: max-height 0.3s ease-in;
+}
+
+.faq.active {
+    background: url('./images/Screenshot_1.png');
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+}
+
+button i {
+    transition: color 2s ease;
+}
+
+p {
+    margin: 0;
+
+    font-size: 16px;
+    font-weight: 400;
+}
+

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+    font-family: 'Mulish', sans-serif;
+
+    background: #2b88f0;
+}
+
+.container {
+    width: 500px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 19px;
+
+    color: #fff;
+}
+
+textarea {
+    border: none;
+    display: block;
+
+    height: 100px;
+    width: 100%;
+
+    padding: 10px;
+    margin: 0 0 20px;
+    
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 16px
+}
+
+.tag {
+    background: #f0932b;
+    color: #fff;
+
+    border-radius: 50px;
+
+    padding: 10px 20px;
+    margin: 0 5px 10px 0;
+
+    font-size: 14px;
+
+    display: inline-block;
+}
+
+.tag.highlight {
+    background: #273c75;
+}

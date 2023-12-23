@@ -1,16 +1,42 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
 body {
+    background: rebeccapurple;
+    color: #fff;
     margin: 0;
     padding: 0;
-    font-family: "Lato", sans-serif;
+    font-family: 'Roboto Mono', monospace;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    overflow: hidden;
+}
+
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 20px 50px;
+}
+
+.counter {
+    font-size: 60px;
+}
+
+p {
+    font-size: 16px;
+}
+
+@media (max-width: 842px) {
+    
+    body {
+        flex-direction: column;
+    }
+
 }

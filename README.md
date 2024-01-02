@@ -20,5 +20,14 @@
 | 14 | [Animated Navigation](https://github.com/Marco-Silvera/50-Projects/tree/master/14-Animated-Navigation) | [Live Demo](https://marco-silvera.github.io/50-Projects/14-Animated-Navigation) |
 | 15 | [Incrementing Counter](https://github.com/Marco-Silvera/50-Projects/tree/master/15-Incrementing-Counter) | [Live Demo](https://marco-silvera.github.io/50-Projects/15-Incrementing-Counter) |
 | 16 | [Drink Water](https://github.com/Marco-Silvera/50-Projects/tree/master/16-Drink-Water) | [Live Demo](https://marco-silvera.github.io/50-Projects/16-Drink-Water) |
+| 17 | [Movie App](https://github.com/Marco-Silvera/50-Projects/tree/master/17-Movie-App) | [Live Demo](https://marco-silvera.github.io/50-Projects/17-Movie-App) |
+| 18 | [Background Slider](https://github.com/Marco-Silvera/50-Projects/tree/master/18-Background-Slider) | [Live Demo](https://marco-silvera.github.io/50-Projects/18-Background-Slider) |
+| 19 | [Theme Clock](https://github.com/Marco-Silvera/50-Projects/tree/master/19-Theme-Clock) | [Live Demo](https://marco-silvera.github.io/50-Projects/19-Theme-Clock) |
+| 20 | [Button Ripple Effect](https://github.com/Marco-Silvera/50-Projects/tree/master/20-Button-Ripple-Effect) | [Live Demo](https://marco-silvera.github.io/50-Projects/20-Button-Ripple-Effect) |
+| 21 | [Drag n Drop](https://github.com/Marco-Silvera/50-Projects/tree/master/21-Drag-n-Drop) | [Live Demo](https://marco-silvera.github.io/50-Projects/21-Drag-n-Drop) |
+| 22 | [Drawing App](https://github.com/Marco-Silvera/50-Projects/tree/master/22-Drawing-App) | [Live Demo](https://marco-silvera.github.io/50-Projects/22-Drawing-App) |
+| 23 | [Kinetic Loader](https://github.com/Marco-Silvera/50-Projects/tree/master/23-Kinetic-Loader) | [Live Demo](https://marco-silvera.github.io/50-Projects/23-Kinetic-Loader) |
+| 24 | [Content Placeholder](https://github.com/Marco-Silvera/50-Projects/tree/master/24-Content-Placeholder) | [Live Demo](https://marco-silvera.github.io/50-Projects/24-Content-Placeholder) |
+| 25 | [Sticky Navigation](https://github.com/Marco-Silvera/50-Projects/tree/master/25-Sticky-Navigation) | [Live Demo](https://marco-silvera.github.io/50-Projects/25-Sticky-Navigation) |
 
 Loading...

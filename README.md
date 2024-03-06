@@ -29,5 +29,20 @@
 | 23 | [Kinetic Loader](https://github.com/Marco-Silvera/50-Projects/tree/master/23-Kinetic-Loader) | [Live Demo](https://marco-silvera.github.io/50-Projects/23-Kinetic-Loader) |
 | 24 | [Content Placeholder](https://github.com/Marco-Silvera/50-Projects/tree/master/24-Content-Placeholder) | [Live Demo](https://marco-silvera.github.io/50-Projects/24-Content-Placeholder) |
 | 25 | [Sticky Navigation](https://github.com/Marco-Silvera/50-Projects/tree/master/25-Sticky-Navigation) | [Live Demo](https://marco-silvera.github.io/50-Projects/25-Sticky-Navigation) |
+| 26 | [Double Vertical Slider](https://github.com/Marco-Silvera/50-Projects/tree/master/26-Double-Vertical-Slider) | [Live Demo](https://marco-silvera.github.io/50-Projects/26-Double-Vertical-Slider/) |
+| 27 | [Toast Notification](https://github.com/Marco-Silvera/50-Projects/tree/master/27-Toast-Notification) | [Live Demo](https://marco-silvera.github.io/50-Projects/27-Toast-Notification/) |
+| 28 | [Github Profiles](https://github.com/Marco-Silvera/50-Projects/tree/master/28-Github-Profiles) | [Live Demo](https://marco-silvera.github.io/50-Projects/28-Github-Profiles/) |
+| 29 | [Double Click Heart](https://github.com/Marco-Silvera/50-Projects/tree/master/29-Double-Click-Heart) | [Live Demo](https://marco-silvera.github.io/50-Projects/29-Double-Click-Heart/) |
+| 30 | [Auto Text Effect](https://github.com/Marco-Silvera/50-Projects/tree/master/30-Auto-Text-Effect) | [Live Demo](https://marco-silvera.github.io/50-Projects/30-Auto-Text-Effect/) |
+| 31 | [Password Generator](https://github.com/Marco-Silvera/50-Projects/tree/master/31-Password-Generator) | [Live Demo](https://marco-silvera.github.io/50-Projects/31-Password-Generator/) |
+| 32 | [Good Cheap Fast](https://github.com/Marco-Silvera/50-Projects/tree/master/32-Good-Cheap-Fast) | [Live Demo](https://marco-silvera.github.io/50-Projects/32-Good-Cheap-Fast/) |
+| 33 | [Notes App](https://github.com/Marco-Silvera/50-Projects/tree/master/33-Notes-App) | [Live Demo](https://marco-silvera.github.io/50-Projects/33-Notes-App/) |
+| 34 | [Animated Countdown](https://github.com/Marco-Silvera/50-Projects/tree/master/34-Animated-Countdown) | [Live Demo](https://marco-silvera.github.io/50-Projects/34-Animated-Countdown/) |
+| 35 | [Image Carousel](https://github.com/Marco-Silvera/50-Projects/tree/master/35-Image-Carousel) | [Live Demo](https://marco-silvera.github.io/50-Projects/35-Image-Carousel/) |
+| 36 | [Hoverboard](https://github.com/Marco-Silvera/50-Projects/tree/master/36-Hoverboard) | [Live Demo](https://marco-silvera.github.io/50-Projects/36-Hoverboard/) |
+| 37 | [Pokedex](https://github.com/Marco-Silvera/50-Projects/tree/master/37-Pokedex) | [Live Demo](https://marco-silvera.github.io/50-Projects/37-Pokedex/) |
+| 38 | [Mobile Tab Navigation](https://github.com/Marco-Silvera/50-Projects/tree/master/38-Mobile-Tab-Navigation) | [Live Demo](https://marco-silvera.github.io/50-Projects/38-Mobile-Tab-Navigation/) |
+| 39 | [Password Strength Background](https://github.com/Marco-Silvera/50-Projects/tree/master/39-Password-Strength-Background) | [Live Demo](https://marco-silvera.github.io/50-Projects/39-Password-Strength-Background/) |
+| 40 | [3D Background Boxes](https://github.com/Marco-Silvera/50-Projects/tree/master/40-3d-Background-Boxes) | [Live Demo](https://marco-silvera.github.io/50-Projects/40-3d-Background-Boxes/) |
 
 Loading...

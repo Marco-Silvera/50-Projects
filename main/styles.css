@@ -19,21 +19,37 @@ body {
 }
 
 header {
-    width: 100vw;
-    height: 100px;
+    width: 100%;
+    min-height: 100px;
     text-align: center;
     margin-bottom: 30px;
-    margin-top: 10px;
 }
 
-h1 {
+.star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    min-height: 50px;
+    background-color: #7b7b7b;
+}
+
+.star p {
+    color: rgb(223, 223, 223);
+}
+
+.title {
+    min-height: 100px;
+}
+
+header h1 {
     padding: 20px 20px 0px 20px;
     font-family: inherit;
     font-weight: 800;
     font-size: 50px;
 }
 
-small {
+header small {
     font-family: inherit;
     font-style: italic;
     font-weight: 400;
@@ -86,9 +102,8 @@ img {
 
     max-width: 100%;
     max-height: 100%;
-    /* width: 400px;
-    height: 200px;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.350); */
+    width: 400px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.350);
 }
 
 a {
@@ -102,8 +117,8 @@ a:active {
 }
 
 footer {
-    width: 100vw;
-    height: 400px;
+    width: 100%;
+    height: 100%;
     padding-top: 30px;
     background: #7b7b7b;
     display: flex;
@@ -111,16 +126,22 @@ footer {
     align-items: center;
 }
 
+footer p {
+    font-size: 16px;
+    font-style: italic;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
 .card:hover {
     cursor: pointer;
 }
 
 .redes {
-    height: 100px;
-    width: 300px;
+    width: 100%;
     display: flex;
     justify-content: center;
-    justify-content: space-evenly;
+    gap: 20px;
     align-items: center;
 }
 
@@ -135,43 +156,7 @@ footer {
 h3 {
     font-size: 40px;
     margin-top: 30px;
-    margin-bottom: 80px;
-}
-
-.contacto {
-    display: flex;
-    flex-direction: column;
-}
-
-.email {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 20px;
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 20px;
-}
-
-.phone {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    gap: 20px;
-}
-
-.phone-number {
-    padding-left: 0px;
-    font-family: inherit;
-    font-weight: 800;
-    font-size: 25px;
-}
-
-@media (max-width: 518px) {
-    header {
-        height: 180px;
-        margin-top: 10px;
-    }
+    margin-bottom: 20px;
 }
 
 @media (min-width : 839px) {

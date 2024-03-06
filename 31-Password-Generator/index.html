@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <meta name="description"
+        content="Secure passwords with this Random Password Generator so you have a password that is difficult to decrypt">
+    <meta name="keywords" content="Password generator, Secure Password, Generator">
+    <link rel="icon" href="img/Logo-icono.ico">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <p class="m-0">
+            Si te gusta este proyecto, ¡una estrella en GitHub sería genial!
+        </p>
+        <iframe
+            src="https://ghbtns.com/github-btn.html?user=Marco-Silvera&repo=50-Projects&type=star&count=true&size=large"
+            frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+    </header>
+
+    <main>
+        <section class="password-generator">
+            <h1>Password Generator</h1>
+
+            <div class="result-container">
+                <span id="result"></span>
+                <button class="btn" id="clipboard">
+                    <i class="far fa-clipboard"></i>
+                </button>
+            </div>
+
+            <div class="settings">
+                <div class="setting">
+                    <label>Password Length</label>
+                    <input type="number" id="length" min="4" max="20" value="20">
+                </div>
+
+                <div class="setting">
+                    <label>Include uppercase letters</label>
+                    <input type="checkbox" id="uppercase" checked>
+                </div>
+
+                <div class="setting">
+                    <label>Include lowercase letters</label>
+                    <input type="checkbox" id="lowercase">
+                </div>
+
+                <div class="setting">
+                    <label>Include numbers</label>
+                    <input type="checkbox" id="numbers">
+                </div>
+
+                <div class="setting">
+                    <label>Include symbols</label>
+                    <input type="checkbox" id="symbols">
+                </div>
+            </div>
+
+            <button class="btn btn-large" id="generate">
+                Generate Password
+            </button>
+        </section>
+    </main>
+</body>
+
+</html>

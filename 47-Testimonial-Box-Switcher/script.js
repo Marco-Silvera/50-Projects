@@ -60,7 +60,10 @@ const testimonials = [
 
 let idx = 1
 
+// Función para actualizar el testimonio que se muestra
 function updateTestimonial() {
+
+    // Obtiene los datos del testimonio actual usando el índice 'idx'
     const { name, position, photo, text } = testimonials[idx]
 
     testimonial.innerHTML = text

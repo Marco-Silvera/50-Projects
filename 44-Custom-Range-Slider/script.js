@@ -4,12 +4,15 @@ range.addEventListener('input', (e) => {
     const value = +e.target.value
     const label = e.target.nextElementSibling
 
+    // Obtiene el ancho del rango y del elemento etiqueta span en píxeles
     const range_width = getComputedStyle(e.target).getPropertyValue('width')
     const label_width = getComputedStyle(label).getPropertyValue('width')
 
+    // Convierte los valores de ancho de cadena a números eliminando 'px'
     const num_width = +range_width.substring(0, range_width.length - 2)
     const num_label_width = +label_width.substring(0, label_width.length - 2)
 
+    // Obtiene los valores mínimo y máximo del rango como números
     const max = +e.target.max
     const min = +e.target.min
 
@@ -21,7 +24,8 @@ range.addEventListener('input', (e) => {
     label.innerHTML = value
 })
 
-// https://stackoverflow.com/questions/10756313/javascript-jquery-map-a-range-of-numbers-to-another-range-of-numbers
+// Fuente: https://stackoverflow.com/questions/10756313/javascript-jquery-map-a-range-of-numbers-to-another-range-of-numbers
+// Función para mapear un rango de números a otro rango de números (reutilizada de una fuente externa)
 const scale = (num, in_min, in_max, out_min, out_max) => {
     return (num - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
 }

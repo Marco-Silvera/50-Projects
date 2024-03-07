@@ -6,6 +6,8 @@ let selectedRating = 'Satisfied'
 
 ratingsContainer.addEventListener('click', (e) => {
     if (e.target.parentNode.classList.contains('rating') && e.target.nextElementSibling) {
+
+        // Remueve la clase 'active' de todas las calificaciones
         removeActive()
         e.target.parentNode.classList.add('active')
         selectedRating = e.target.nextElementSibling.innerHTML
@@ -22,6 +24,8 @@ ratingsContainer.addEventListener('click', (e) => {
 })
 
 sendBtn.addEventListener('click', (e) => {
+
+    // Actualiza el contenido del panel con un mensaje de agradecimiento y la calificación seleccionada
     panel.innerHTML = `
         <i class="fas fa-heart"></i>
         <strong>Thank You!</strong>

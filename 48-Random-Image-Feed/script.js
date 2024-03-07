@@ -1,6 +1,6 @@
 const container = document.querySelector('.container')
 const unsplashURL = 'https://source.unsplash.com/random/'
-const rows = 5
+const rows = 6
 
 for (let i = 0; i < rows * 3; i++) {
     const img = document.createElement('img')

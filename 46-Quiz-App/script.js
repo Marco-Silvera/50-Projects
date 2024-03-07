@@ -47,11 +47,14 @@ let score = 0
 
 loadQuiz()
 
+// Función para cargar la pregunta actual en el quiz
 function loadQuiz() {
     deselectAnswers()
 
+    // Obtiene los datos de la pregunta actual
     const currentQuizData = quizData[currentQuiz]
 
+    // Actualiza el texto de la pregunta y las opciones de respuesta en el HTML
     questionEl.innerText = currentQuizData.question
     a_text.innerText = currentQuizData.a
     b_text.innerText = currentQuizData.b
@@ -63,9 +66,11 @@ function deselectAnswers() {
     answerEls.forEach(answerEl => answerEl.checked = false)
 }
 
+// Función para obtener la respuesta seleccionada por el usuario
 function getSelected() {
     let answer
 
+    // Itera sobre todas las opciones de respuesta y verifica cuál está seleccionada
     answerEls.forEach(answerEl => {
         if (answerEl.checked) {
             answer = answerEl.id

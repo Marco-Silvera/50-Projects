@@ -1,6 +1,10 @@
-# 50projects (by Marco Silvera)
+# 50projects (con dodumentación en español)
+***Coded by Marco Silvera***
 
 [Pagína Principal](https://marco-silvera.github.io/50-Projects/main/)
+
+![Screenshot_6](https://github.com/Marco-Silvera/50-Projects/assets/149970856/2b9b412b-1818-404f-ad1e-d59ba6e45ff1)
+
 
 > Documentación en español
 
@@ -56,3 +60,5 @@
 | 48  | [Random Image Feed](https://github.com/Marco-Silvera/50-Projects/tree/master/48-Random-Image-Feed)                       | [Live Demo](https://marco-silvera.github.io/50-Projects/48-Random-Image-Feed/)            |
 | 49  | [Todo List](https://github.com/Marco-Silvera/50-Projects/tree/master/49-Todo-List)                                       | [Live Demo](https://marco-silvera.github.io/50-Projects/49-Todo-List/)                    |
 | 50  | [Insect Catch Game](https://github.com/Marco-Silvera/50-Projects/tree/master/50-Insect-Catch-Game)                       | [Live Demo](https://marco-silvera.github.io/50-Projects/50-Insect-Catch-Game/)            |
+
+Inspirado en: https://github.com/bradtraversy/50projects50days

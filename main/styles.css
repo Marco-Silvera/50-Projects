@@ -6,15 +6,10 @@
     box-sizing: border-box;
 }
 
-html {
-    width: 100vw;
-}
-
 body {
-    width: 100vw;
+    width: 100%;
     font-family: 'Rethink Sans', sans-serif;
     background: rgb(223, 223, 223);
-    overflow-x: hidden;
     min-block-size: 100vh;
 }
 
@@ -78,6 +73,12 @@ header small {
     box-shadow: -1px -1px 137px -24px rgba(181, 181, 181, 0.5);
     background: #fff;
     align-content: center;
+    transition: all ease-in 0.1s;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 20px 1px rgba(0, 119, 255, 0.3);
+    cursor: pointer;
 }
 
 h2,
@@ -131,10 +132,6 @@ footer p {
     font-style: italic;
     padding-top: 20px;
     padding-bottom: 40px;
-}
-
-.card:hover {
-    cursor: pointer;
 }
 
 .redes {
